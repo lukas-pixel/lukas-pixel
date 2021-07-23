@@ -204,7 +204,7 @@ input {
   width: 55%;
   border-radius: 15px;
   background-color: #f2f2f2;
-  padding: 30px 30px 30px 30px;
+  padding: 30px 65px 30px 30px;
 }
 
 article img {
@@ -267,7 +267,9 @@ aside {
   padding: 30px 30px 0px 30px;
   width: 30%;
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-bottom: 55px;
 }
 aside img {
   object-fit: cover;
@@ -388,8 +390,8 @@ aside img {
 }
 
 #legend_vieuxport {
-  width: 286px;
-  height: 50px;
+  width: 276px;
+  height: 30px;
   border: 3px solid white;
   border-radius: 0 0 20px 20px;
   padding: 10px 0 0 10px;
@@ -410,15 +412,15 @@ aside img {
 }
 
 #photo_fortpomegues {
-  width: 286px;
+  width: 280px;
   height: 210px;
   border: 3px solid white;
   border-radius: 20px 20px 0 0;
 }
 
 #legend_fortpomegues {
-  width: 286px;
-  height: 50px;
+  width: 270px;
+  height: 30px;
   border: 3px solid white;
   border-radius: 0 0 20px 20px;
   padding: 10px 0 0 10px;
@@ -437,19 +439,20 @@ aside img {
 }
 
 #photo_ilesfrioul {
-  width: 286px;
+  width: 280px;
   height: 100px;
   border: 3px solid white;
   border-radius: 20px 20px 0 0;
 }
 
 #legend_ilesfrioul {
-  width: 286px;
-  height: 50px;
+  width: 276px;
+  height: 30px;
   border: 3px solid white;
   border-radius: 0 0 20px 20px;
   padding: 10px 0 0 10px;
   margin-top: -6px;
+  padding-left: 5px;
   background-color: white;
 }
 
@@ -473,8 +476,8 @@ aside img {
 }
 
 #legend_parccalanques {
-  width: 286px;
-  height: 50px;
+  width: 274px;
+  height: 30px;
   border: 3px solid white;
   border-radius: 0 0 20px 20px;
   padding: 10px 0 0 10px;
@@ -501,8 +504,8 @@ aside img {
 }
 
 #legend_notredamedelagarde {
-  width: 286px;
-  height: 50px;
+  width: 276px;
+  height: 30px;
   border: 3px solid white;
   border-radius: 0 0 20px 20px;
   padding: 10px 0 0 10px;
@@ -528,8 +531,8 @@ aside img {
 }
 
 #legend_parclongchamp {
-  width: 286px;
-  height: 50px;
+  width: 276px;
+  height: 30px;
   border: 3px solid white;
   border-radius: 0 0 20px 20px;
   padding: 10px 0 0 10px;
@@ -647,7 +650,304 @@ h4 {
     width: 90%;
     border-radius: 0;
     padding-left: 25px;
-    padding-right: 15px;
+    padding-right: 25px;
+    order: 1;
+  }
+
+  #encarts_populaires {
+    width: 100%;
+  }
+
+  /*Taille des cards*/
+
+  #card3,
+  #card4 {
+    width: 97%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+  #card5 {
+    width: 97%;
+    height: 150px;
+    margin-right: 10px;
+  }
+
+  /*Taille des photos*/
+
+  #photo_hsoleildumatin,
+  #photo_aucoeurdeleau,
+  #photo_htoutbleuetblanc {
+    width: 140px;
+    height: 148px;
+  }
+
+  /*Taille des légendes*/
+
+  #legend7,
+  #legend8,
+  #legend9 {
+    width: 97%;
+    height: 149px;
+  }
+
+  /*Espace des étoiles*/
+
+  #legend7 i,
+  #legend9 i {
+    margin-top: 40px;
+  }
+
+  #legend8 i {
+    margin-top: 40px;
+  }
+
+  /*Hébergements*/
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  article {
+    width: 100%;
+    order: 2;
+  }
+  .card1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hebergements {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  #encarts {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #titre_hebergements {
+    padding-top: 40px;
+  }
+
+  #encarts figure {
+    width: 100%;
+    height: 200px;
+  }
+
+  /*Taille des cartes*/
+
+  #fig1,
+  #fig2,
+  #fig3,
+  #fig4,
+  #fig5,
+  #fig6 {
+    width: 100%;
+    height: auto;
+  }
+
+  /*Taille des photos*/
+
+  #photo_cannebiere,
+  #photo_du_port,
+  #photo_les_mouettes,
+  #photo_de_la_mer,
+  #photo_le_panier,
+  #photo_chez_amina {
+    width: 100%;
+    height: 60%;
+  }
+
+  /*Taille des légendes*/
+
+  #legend1,
+  #legend2,
+  #legend3,
+  #legend4,
+  #legend5,
+  #legend6 {
+    width: 100%;
+    height: 40%;
+    padding-left: 8px;
+    padding-top: 2px;
+  }
+
+  /*Espace des étoiles*/
+
+  #fig1 i,
+  #fig2 i,
+  #fig3 i,
+  #fig4 i,
+  #fig5 i,
+  #fig6 i {
+    padding-top: 10px;
+  }
+
+  /*Activités*/
+
+  #activites {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #photos_activites {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+  }
+
+  /*Tailles des encarts*/
+
+  #encart_vieuxport,
+  #encart_ilesfrioul,
+  #encart_parccalanques,
+  #encart_parclongchamp {
+    width: 95%;
+    height: 200px;
+    margin-bottom: 25px;
+  }
+
+  #encart_fortpomegues,
+  #encart_notredamedelagarde {
+    width: 95%;
+    height: 200px;
+  }
+
+  /*Taille des photos*/
+
+  #photo_vieuxport,
+  #photo_fortpomegues,
+  #photo_ilesfrioul,
+  #photo_parccalanques,
+  #photo_notredamedelagarde,
+  #photo_parclongchamp {
+    width: 98%;
+    height: 70%;
+  }
+
+  /*Taille des légendes*/
+
+  #legend_vieuxport,
+  #legend_fortpomegues,
+  #legend_ilesfrioul,
+  #legend_parccalanques,
+  #legend_notredamedelagarde,
+  #legend_parclongchamp {
+    width: 95%;
+    height: 10%;
+    padding-left: 8px;
+    padding-top: 15px;
+  }
+
+  /*footer*/
+
+  footer {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  #apropos,
+  #noshebergements {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+/* responsive version tablette */
+
+@media all and (min-width: 668px) and (max-width: 1024px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #bloc_page {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  #logo img {
+    margin-left: 20px;
+  }
+  #ancres {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+  nav li {
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+  nav span {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+  }
+  nav a:hover {
+    padding-top: 37px;
+  }
+  nav li a:hover {
+    border-top: none;
+  }
+  nav li:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+  #texte-rechercher {
+    display: none;
+  }
+  #search {
+    display: block;
+  }
+  #liens ul {
+    flex-wrap: wrap;
+  }
+  #filtres {
+    flex-wrap: wrap;
+  }
+  #liens li {
+    margin-right: 0px;
+  }
+  /*Les plus populaires*/
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     order: 1;
   }
 
@@ -708,6 +1008,14 @@ h4 {
   article {
     width: 100%;
     order: 2;
+  }
+  .card1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
   }
 
   #hebergements {
@@ -849,288 +1157,5 @@ h4 {
   #noshebergements {
     padding-right: 0px;
     margin-bottom: 30px;
-  }
-
-  /* responsive version tablette */
-
-  @media all and (min-width: 668px) and (max-width: 1024px) {
-    body {
-      width: auto;
-      margin: 0px;
-      padding: 0px;
-      box-sizing: border-box;
-    }
-    #bloc_page {
-      margin: 0px;
-      padding: 0px;
-    }
-    header {
-      flex-direction: column;
-      margin: 0px;
-      padding: 0px;
-    }
-    #logo img {
-      margin-left: 20px;
-    }
-    #ancres {
-      flex-direction: column-reverse;
-      flex-wrap: wrap;
-      width: 100%;
-    }
-    nav {
-      width: 100%;
-    }
-    nav ul {
-      width: 100%;
-      padding: 0px;
-    }
-    nav li {
-      width: 50%;
-      border-bottom: 3px solid #f2f2f2;
-      padding-bottom: 10px;
-      margin: 0px;
-      text-align: center;
-    }
-    nav span {
-      position: absolute;
-      top: 7px;
-      right: 20px;
-    }
-    nav a:hover {
-      padding-top: 37px;
-    }
-    nav li a:hover {
-      border-top: none;
-    }
-    nav li:hover {
-      border-color: #0065fc;
-      color: #0065fc;
-    }
-    #texte-rechercher {
-      display: none;
-    }
-    #search {
-      display: block;
-    }
-    #liens ul {
-      flex-wrap: wrap;
-    }
-    #filtres {
-      flex-wrap: wrap;
-    }
-    #liens li {
-      margin-right: 0px;
-    }
-    /*Les plus populaires*/
-
-    aside {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      border-radius: 0;
-      padding-left: 20px;
-      padding-right: 20px;
-      order: 1;
-    }
-
-    #encarts_populaires {
-      width: 100%;
-    }
-
-    /*Taille des cards*/
-
-    #card1,
-    #card2 {
-      width: 100%;
-      height: 150px;
-      margin-bottom: 20px;
-    }
-
-    #card3 {
-      width: 100%;
-      height: 150px;
-    }
-
-    /*Taille des photos*/
-
-    #photo_hsoleildumatin,
-    #photo_chaucoeurdeleau,
-    #photo_hbleublanc {
-      width: 140px;
-      height: 148px;
-    }
-
-    /*Taille des légendes*/
-
-    #legend7,
-    #legend8,
-    #legend9 {
-      width: 100%;
-      height: 148px;
-    }
-
-    /*Espace des étoiles*/
-
-    #legend7 i,
-    #legend9 i {
-      margin-top: 60px;
-    }
-
-    #legend8 i {
-      margin-top: 40px;
-    }
-
-    /*Hébergements*/
-
-    .main {
-      flex-direction: column;
-      width: 100%;
-    }
-
-    article {
-      width: 100%;
-      order: 2;
-    }
-
-    #hebergements {
-      background: none;
-      padding-left: 20px;
-      padding-right: 20px;
-      width: 100%;
-    }
-
-    #encarts {
-      flex-direction: column;
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-    }
-
-    #titre_hebergements {
-      padding-top: 40px;
-    }
-
-    #encarts figure {
-      width: 100%;
-      height: 200px;
-    }
-
-    /*Taille des cartes*/
-
-    #fig1,
-    #fig2,
-    #fig3,
-    #fig4,
-    #fig5,
-    #fig6 {
-      width: 100%;
-      height: auto;
-    }
-
-    /*Taille des photos*/
-
-    #photo_cannebiere,
-    #photo_hduport,
-    #photo_hlesmouettes,
-    #photo_hdelamer,
-    #photo_lepanier,
-    #photo_hamina {
-      width: 100%;
-      height: 60%;
-    }
-
-    /*Taille des légendes*/
-
-    #legend1,
-    #legend2,
-    #legend3,
-    #legend4,
-    #legend5,
-    #legend6 {
-      width: 100%;
-      height: 40%;
-      padding-left: 8px;
-      padding-top: 2px;
-    }
-
-    /*Espace des étoiles*/
-
-    #fig1 i,
-    #fig2 i,
-    #fig3 i,
-    #fig4 i,
-    #fig5 i,
-    #fig6 i {
-      padding-top: 10px;
-    }
-
-    /*Activités*/
-
-    #activites {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-
-    #photos_activites {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-
-    /*Tailles des encarts*/
-
-    #encart_vieuxport,
-    #encart_ilesfrioul,
-    #encart_parccalanques,
-    #encart_parclongchamp {
-      width: 100%;
-      height: 200px;
-      margin-bottom: 25px;
-    }
-
-    #encart_fortpomegues,
-    #encart_notredamedelagarde {
-      width: 100%;
-      height: 200px;
-    }
-
-    /*Taille des photos*/
-
-    #photo_vieuxport,
-    #photo_fortpomegues,
-    #photo_ilesfrioul,
-    #photo_parccalanques,
-    #photo_notredamedelagarde,
-    #photo_parclongchamp {
-      width: 100%;
-      height: 70%;
-    }
-
-    /*Taille des légendes*/
-
-    #legend_vieuxport,
-    #legend_fortpomegues,
-    #legend_ilesfrioul,
-    #legend_parccalanques,
-    #legend_notredamedelagarde,
-    #legend_parclongchamp {
-      width: 100%;
-      height: 30%;
-      padding-left: 8px;
-      padding-top: 15px;
-    }
-
-    /*footer*/
-
-    footer {
-      flex-direction: column;
-      margin: 0px;
-    }
-
-    #apropos,
-    #noshebergements {
-      padding-right: 0px;
-      margin-bottom: 30px;
-    }
   }
 }
